@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <com.example.roboticarm.MyImageView
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:id="@+id/image_arm"
+        />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grip"/>
+        <com.xw.repo.BubbleSeekBar
+            android:id="@+id/servo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bsb_bubble_color="#f55c47"
+            app:bsb_bubble_text_color="#fff"
+            app:bsb_max="180"
+            app:bsb_min="0"
+            app:bsb_second_track_color="#f55c47"
+            app:bsb_second_track_size="5dp"
+            app:bsb_section_text_position="bottom_sides"
+            app:bsb_show_section_text="true"
+            app:bsb_show_thumb_text="true"
+            app:bsb_track_color="#f29191"
+            app:bsb_track_size="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wrist Pitch"/>
+        <com.xw.repo.BubbleSeekBar
+            android:id="@+id/servo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bsb_bubble_color="#f55c47"
+            app:bsb_bubble_text_color="#fff"
+            app:bsb_max="180"
+            app:bsb_min="0"
+            app:bsb_second_track_color="#f55c47"
+            app:bsb_second_track_size="5dp"
+            app:bsb_section_text_position="bottom_sides"
+            app:bsb_show_section_text="true"
+            app:bsb_show_thumb_text="true"
+            app:bsb_track_color="#f29191"
+            app:bsb_track_size="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wrist Roll"/>
+        <com.xw.repo.BubbleSeekBar
+            android:id="@+id/servo3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bsb_bubble_color="#f55c47"
+            app:bsb_bubble_text_color="#fff"
+            app:bsb_max="180"
+            app:bsb_min="0"
+            app:bsb_second_track_color="#f55c47"
+            app:bsb_second_track_size="5dp"
+            app:bsb_section_text_position="bottom_sides"
+            app:bsb_show_section_text="true"
+            app:bsb_show_thumb_text="true"
+            app:bsb_track_color="#f29191"
+            app:bsb_track_size="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Elbow"/>
+        <com.xw.repo.BubbleSeekBar
+            android:id="@+id/servo4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bsb_bubble_color="#f55c47"
+            app:bsb_bubble_text_color="#fff"
+            app:bsb_max="180"
+            app:bsb_min="0"
+            app:bsb_second_track_color="#f55c47"
+            app:bsb_second_track_size="5dp"
+            app:bsb_section_text_position="bottom_sides"
+            app:bsb_show_section_text="true"
+            app:bsb_show_thumb_text="true"
+            app:bsb_track_color="#f29191"
+            app:bsb_track_size="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shoulder"/>
+        <com.xw.repo.BubbleSeekBar
+            android:id="@+id/servo5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bsb_bubble_color="#f55c47"
+            app:bsb_bubble_text_color="#fff"
+            app:bsb_max="180"
+            app:bsb_min="0"
+            app:bsb_second_track_color="#f55c47"
+            app:bsb_second_track_size="5dp"
+            app:bsb_section_text_position="bottom_sides"
+            app:bsb_show_section_text="true"
+            app:bsb_show_thumb_text="true"
+            app:bsb_track_color="#f29191"
+            app:bsb_track_size="5dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Waist"/>
+        <com.xw.repo.BubbleSeekBar
+            android:id="@+id/servo6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bsb_bubble_color="#f55c47"
+            app:bsb_bubble_text_color="#fff"
+            app:bsb_max="180"
+            app:bsb_min="0"
+            app:bsb_second_track_color="#f55c47"
+            app:bsb_second_track_size="5dp"
+            app:bsb_section_text_position="bottom_sides"
+            app:bsb_show_section_text="true"
+            app:bsb_show_thumb_text="true"
+            app:bsb_track_color="#f29191"
+            app:bsb_track_size="5dp"/>
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+<LinearLayout
+    android:paddingTop="10dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Switch
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Bluetooth  "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnONOFF"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFindUnpairedDevices"
+        android:text="Discover"
+        android:onClick="btnDiscover"/>
+
+    <Button
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnFindUnpairedDevices"
+        android:id="@+id/btnStartConnection"
+        android:text="Start Connection"/>
+
+</LinearLayout>
+
+
+    <ListView
+        android:layout_below="@+id/btnFindUnpairedDevices"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/lvNewDevices"/>
+
+
+
+</LinearLayout>
